@@ -11,4 +11,11 @@ Os dados que gravei pelo repository, coloquei no Banco de Dados H2 que é em mem
 Eu gravei alguns dados no banco e mockei alguns fiz essas mescla para tentar ganhar tempo, no meu service eu coloquei Orcamento como parametro e tipo de retorno pois não consegui converter de Request para Response.Custos, frete e total, foram mockados e as outras você passa por parâmetro gravando no banco Marca, modelo e Defeito(que vem de um Enum também).
 Tentei ganhar tempo nesse também, não consegui chegar no objetivo, mas creio que consegui um caminho.
 
+# 3 - Validação Cliente
+
+Bom, aqui eu consegui colocar a quantidade de vezes que gera um novo atendimento, pela variável Histórico, coloquei ela como static e consegui mostrar só no código quantas chamadas ela faz (começando de 0). Gerando um hisótico de todos os pedidos. Não coloquei os concluídos peço desculpas.
+
+Consegui entrar esses 3 em um dia, poderia ter feito um pouco melhor se tivesse mais tempo, mas desde já agradeço todos vocês pela oportunidade !!
+
+
 
