@@ -7,6 +7,7 @@ import br.com.portoseguro.consertoCelular.enums.RegiaoCep;
 import br.com.portoseguro.consertoCelular.model.Celular;
 import br.com.portoseguro.consertoCelular.model.Cliente;
 import br.com.portoseguro.consertoCelular.model.Endereco;
+import br.com.portoseguro.consertoCelular.model.Orcamento;
 
 @Service
 public class ConsertoService {
@@ -20,16 +21,16 @@ public class ConsertoService {
 
 		cli.setNome("Victor");
 		cli.setCelular(new Celular(null, "a", "a", Defeito.BATERIA));
-		cli.setEmail("alo");
+		cli.setEmail("hotts_victor@hot.com");
 		cli.setCpf("32342342342342");
-		cli.setEndereco(new Endereco(null, "Ruaa", RegiaoCep.LESTE));
-
+		cli.setEndereco(new Endereco(null, "Ruaa", RegiaoCep.CENTRO));
+		
 		if (cli.getEndereco().getCep().equals(RegiaoCep.CENTRO)) {
-
 			return CEPOK;
 		} else {
 			return CEPN;
 		}
 	}
+		
 
 }

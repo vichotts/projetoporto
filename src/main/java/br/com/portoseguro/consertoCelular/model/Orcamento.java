@@ -16,7 +16,6 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 @Entity
 public class Orcamento {
 	
@@ -29,6 +28,7 @@ public class Orcamento {
 	private Double total;
 	private Double frete;
 	private Double custos;
+	
 
 
 }
